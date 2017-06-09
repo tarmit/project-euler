@@ -1,0 +1,16 @@
+/*
+Problem 3
+What is the largest prime factor of the number 600851475143
+*/
+
+function findPrime(n){
+	var x = 2;
+  while(x <= n){
+  	if(n % x === 0){
+    	n /= x; 
+    }else{x++;}
+  }
+  console.log(x);
+}
+
+findPrime(600851475143);
