@@ -8,7 +8,7 @@ var sum = 0;
 var i = 0;
 
 while (fibArray[0] + fibArray[1] < 4000000){
-	i = fibArray[0] + fibArray[1];
+  i = fibArray[0] + fibArray[1];
   fibArray[0] = fibArray[1]; 
   fibArray[1] = i; 
   
